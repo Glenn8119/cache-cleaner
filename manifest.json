@@ -1,0 +1,21 @@
+{
+  "name": "yep cache cleaner",
+  "version": "0.0.1",
+  "description": "cache cleaner for yep",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "assets/data-cleaning.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/data-cleaning.png",
+      "24": "assets/data-cleaning.png",
+      "32": "assets/data-cleaning.png"
+    },
+    "default_title": "yep cache cleaner"
+  },
+  "manifest_version": 3
+}
